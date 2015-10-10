@@ -1,11 +1,12 @@
-from flask import Flask
 import json
 
-app = Flask(__name__)
+import flask
+import view
+import api
 
-@app.route("/")
-def ping():
-    return "hello world"
+app = flask.Flask(__name__)
+app.register_blueprint(api.app)
+app.register_blueprint(view.app)
 
 if __name__ == "__main__":
     app.run()
