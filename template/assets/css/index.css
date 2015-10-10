@@ -1,0 +1,51 @@
+@font-face {
+  font-family: AvenirLight;
+  src: url("AvenirLTStd-Light.otf") format("opentype");
+}
+
+@font-face {
+  font-family: AvenirBook;
+  src: url("AvenirLTStd-Book.otf") format("opentype");
+}
+
+@font-face {
+  font-family: AvenirMedium;
+  src: url('AvenirLTStd-Medium.otf') format("opentype");
+}
+
+html {
+  height: 100%;
+  background: -webkit-linear-gradient(#4A6D9D, #8DA4D1);
+}
+
+#city {
+  position: absolute;
+  height: 400px;
+  top: 50%;
+  transform: translateX(-10%) translateY(-50%);
+  left: 10%;
+}
+
+#title {
+  font-family: "AvenirLight", Georgia, Sans-Serif;
+  font-size: 48px;
+  color: white;
+}
+
+#start {
+  position: absolute;
+  top: 25%;
+  left: 60%;
+}
+
+#desc {
+  position: relative;
+  transform: translateY(-30%);
+  font-family: "AvenirLight", Georgia, Sans-Serif;
+  color:white;
+}
+
+#clogin {
+  font-family: "AvenirLight", Georgia, Sans-Serif;
+  color:white;
+}
