@@ -20,7 +20,7 @@ html {
 
 #city {
   position: absolute;
-  height: 400px;
+  height: 300px;
   top: 50%;
   transform: translateX(-10%) translateY(-50%);
   left: 10%;
@@ -45,7 +45,65 @@ html {
   color:white;
 }
 
-#clogin {
+#getStarted {
+  width: 180px;
+  position: relative;
+  float: left;
+  transform: translateY(-50%) translateX(-5%);
+}
+
+#returningUser {
+  position: relative;
+  float:left;
   font-family: "AvenirLight", Georgia, Sans-Serif;
   color:white;
+  transform: translateY(-160%) translateX(-25%);
+  font-size: 12px;
+}
+
+#login {
+  position: relative;
+  float:left;
+  font-family: "AvenirLight", Georgia, Sans-Serif;
+  color:white;
+  transform: translateY(-160%) translateX(-55%);
+  font-size: 12px;
+}
+
+#menu {
+  float:right;
+}
+
+#clogin {
+  float:left;
+  position: relative;
+  font-family: "AvenirLight", Georgia, Sans-Serif;
+  color:white;
+  font-size: 14px;
+}
+
+#divider {
+  float:left;
+  position:relative;
+  font-family: "AvenirLight", Georgia, Sans-Serif;
+  color:white;
+  padding-left:1em;
+  padding-right:1em;
+  font-size: 14px;
+}
+
+#faq {
+  float:left;
+  position:relative;
+  font-family: "AvenirLight", Georgia, Sans-Serif;
+  color:white;
+  font-size: 14px;
+}
+
+#logo {
+  padding-left: 1em;
+  float:left;
+  position: relative;
+  transform: translateY(20%);
+  padding-right: 1em;
 }
